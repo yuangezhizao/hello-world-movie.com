@@ -1,0 +1,108 @@
+// JavaScript Document
+$(document).ready(function() {
+"use strict";
+
+$('.trailerArea ul #trailer3,.trailerArea ul #sound2,.trailerArea ul #tvcm1').css({opacity: 0.75});
+
+$(".trailerArea ul #trailer1").click(function(){
+	$('.trailerArea ul .trailerBtn1').css({opacity: 1.0});
+	$('.trailerArea ul #trailer1').css({opacity: 0.75});
+	document.getElementById('trailerFrame').contentWindow.location.replace('https://www.youtube.com/embed/H7QKSFkCK8g?rel=0&amp;showinfo=0;enablejsapi=1');
+	return false;
+});
+
+$(".trailerArea ul #trailer2").click(function(){
+	$('.trailerArea ul .trailerBtn1').css({opacity: 1.0});
+	$('.trailerArea ul #trailer2').css({opacity: 0.75});
+	document.getElementById('trailerFrame').contentWindow.location.replace('https://www.youtube.com/embed/7CPrVVq-Ofc?rel=0&amp;showinfo=0;enablejsapi=1');
+	return false;
+});
+
+$(".trailerArea ul #trailer3").click(function(){
+	$('.trailerArea ul .trailerBtn1').css({opacity: 1.0});
+	$('.trailerArea ul #trailer3').css({opacity: 0.75});
+	document.getElementById('trailerFrame').contentWindow.location.replace('https://www.youtube.com/embed/shoWFRnNoWw?rel=0&amp;showinfo=0;enablejsapi=1');
+	return false;
+});
+
+
+
+
+$(".trailerArea ul #sound2").click(function(){
+	$('.trailerArea ul .trailerBtn2').css({opacity: 1.0});
+	$('.trailerArea ul #sound2').css({opacity: 0.75});
+	document.getElementById('trailerFrame2').contentWindow.location.replace('https://www.youtube.com/embed/3BuQO_RMX3U?rel=0&amp;showinfo=0;enablejsapi=1');
+	return false;
+});
+
+$(".trailerArea ul #sound1").click(function(){
+	$('.trailerArea ul .trailerBtn2').css({opacity: 1.0});
+	$('.trailerArea ul #sound1').css({opacity: 0.75});
+	document.getElementById('trailerFrame2').contentWindow.location.replace('https://www.youtube.com/embed/p_FJiDAbmcg?rel=0&amp;showinfo=0;enablejsapi=1');
+	return false;
+});
+
+
+
+$(".trailerArea ul #tvcm1").click(function(){
+	$('.trailerArea ul .trailerBtn3').css({opacity: 1.0});
+	$('.trailerArea ul #tvcm1').css({opacity: 0.75});
+	document.getElementById('tvcmFrame').contentWindow.location.replace('https://www.youtube.com/embed/Q8RKzmPTn-Y?rel=0&amp;showinfo=0;enablejsapi=1');
+	return false;
+});
+
+$(".trailerArea ul #tvcm2").click(function(){
+	$('.trailerArea ul .trailerBtn3').css({opacity: 1.0});
+	$('.trailerArea ul #tvcm2').css({opacity: 0.75});
+	document.getElementById('tvcmFrame').contentWindow.location.replace('https://www.youtube.com/embed/ck4SnAV5UZs?rel=0&amp;showinfo=0;enablejsapi=1');
+	return false;
+});
+
+$(".trailerArea ul #tvcm3").click(function(){
+	$('.trailerArea ul .trailerBtn3').css({opacity: 1.0});
+	$('.trailerArea ul #tvcm3').css({opacity: 0.75});
+	document.getElementById('tvcmFrame').contentWindow.location.replace('https://www.youtube.com/embed/Ik-nqPT0fY0?rel=0&amp;showinfo=0;enablejsapi=1');
+	return false;
+});
+
+$(".trailerArea ul #tvcm4").click(function(){
+	$('.trailerArea ul .trailerBtn3').css({opacity: 1.0});
+	$('.trailerArea ul #tvcm4').css({opacity: 0.75});
+	document.getElementById('tvcmFrame').contentWindow.location.replace('https://www.youtube.com/embed/onk2kPsg3K4?rel=0&amp;showinfo=0;enablejsapi=1');
+	return false;
+});
+
+//------------- ローディング -------------//
+$(window).load(function(){
+	$(".loadingWrap .ng-scope").fadeOut({'duration':800,'easing':'easeInCubic','complete':function(){
+		$('.loadingWrap').fadeOut({'duration':800,'easing':'easeInSine'});
+			topStart();
+	}
+	});
+});
+
+function topStart() {
+		$('#tit').addClass('scaleUpIn').removeClass('scaleUpOut2');
+		setTimeout(function(){$('.txtArea li .midashi').addClass('scaleUpIn').removeClass('scaleUpOut');},100);
+		setTimeout(function(){$('.prArea').addClass('scaleUpIn').removeClass('scaleUpOut3');},100);
+}
+//------------- メニュー表示・非表示 -------------//
+$("#menuIcon").click(function(){
+        if ($('#overlayMenu').is(':visible')) {
+			$("#overlayMenu").slideUp({'duration':600,'easing':'easeOutQuart'});
+			$("#menuOn").delay(0).fadeOut({'duration':150,'easing':'easeInQuart'});
+			$("#menuOff").delay(150).fadeIn({'duration':450,'easing':'easeOutQuart'});
+        } else {
+			$("#overlayMenu").slideDown({'duration':600,'easing':'easeOutQuart'});
+			$("#menuOff").delay(0).fadeOut({'duration':200,'easing':'easeInQuart'});
+			$("#menuOn").delay(200).fadeIn({'duration':400,'easing':'easeOutQuart'});
+        }
+	return false;
+});
+//------------- 右クリック禁止 -------------//
+
+$('body').on('contextmenu',function(){
+	return false;
+});
+
+});

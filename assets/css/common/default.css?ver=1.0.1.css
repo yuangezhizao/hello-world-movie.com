@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+/**  default.css Menu *********************************************
+
+  ・基本設定
+
+*******************************************************************/
+
+
+/*-------------------------------------- リセット--------------------------------------*/
+body, div, td, p, ul, ol, dl, dd, img, form, h1, h2, h3, h4, h5 {
+margin: 0;
+padding: 0;
+border: none;
+font-style: normal;
+text-align: left;
+}
+
+/* --------------------------------------基本--------------------------------------*/
+*{
+	outline: none;
+	margin: 0;
+	padding: 0;
+}
+html{
+	width: 100%;
+	height: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	font-size: inherit;
+	font: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+	font:100% "ＭＳ Ｐゴシック", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Hiragino Kaku Gothic Pro", "Meiryo", arial, helvetica, clean, sans-serif;
+	*font:x-small;
+	font-weight:bold;
+}
+
+th, td {
+	border-collapse: collapse;
+	text-indent: 1em;
+}
+th  {
+	padding: 2px 0;
+	text-align: left;
+}
+td  {
+	padding: 2px 0;
+	text-align: left;
+}
+
+ul, ol { list-style-type: none; }
+
+li { list-style-type: none; }
+
+img { vertical-align: bottom; }
+
+
+/*-------------------------------------- リンク色--------------------------------------*/
+a:link {
+text-decoration:none;
+color:#3682b4;
+}
+
+a:visited {
+text-decoration:none;
+color:#3682b4;
+}
+
+a:hover {
+text-decoration:underline;
+color:#3682b4;
+}
+
+a:active {
+text-decoration:none;
+color:#3682b4;
+}
+
+
+/*-------------------------------------- 回り込み--------------------------------------*/
+.floatright {
+display: block;
+float: right;
+}
+
+.floatleft {
+display: block;
+float: left;
+}
+
+/*-------------------------------------- 回り込み解除--------------------------------------*/
+.clearfix:after {
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+
+.clearfix { display:inline-block; }
+
+/*\*/
+* html .clearfix { height:1%; }
+
+.clearfix { display:block; }
+
+/**/
+
+/*-------------------------------------- ボールド--------------------------------------*/
+.txtbold { font-weight: bold; }
+
+/*-------------------------------------- 行揃え--------------------------------------*/
+.alignleft { text-align: left; }
+
+.alignright { text-align: right; }
+
+.aligncenter { text-align: center; }
+#qLpercentage{
+	font: 10px 'Electrolize', sans-serif;
+}
+
+body {
+	-webkit-text-size-adjust: 100%;
+}
+
+
+
+/*------------------------------------------------------------------------------
+								LOADING
+------------------------------------------------------------------------------*/
+
+.loadingWrap{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+	z-index:999998;
+	margin:0px;
+	padding:0px;
+}
+.loadingWrapWaku{
+    width: 100%;
+    height: 100%;
+	background:#FFF;
+    position: relative;
+	margin:0px;
+	padding:0px;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes lds-dual-ring {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.lds-dual-ring {
+	width: 80px;
+	height: 80px;
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	margin-left:-40px;
+	margin-top:-40px;
+}
+.lds-dual-ring div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 3px solid #b6b9ba;
+	box-sizing:border-box;
+	border-color: #b6b9ba transparent #b6b9ba transparent;
+	-webkit-animation: lds-dual-ring 2s linear infinite;
+	animation: lds-dual-ring 2s linear infinite;
+}

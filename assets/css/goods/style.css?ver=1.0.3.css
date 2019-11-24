@@ -1,0 +1,301 @@
+@media screen and (min-width:1001px) {
+
+#contents {
+	width:1120px;
+	margin:0 auto;
+	position:relative;
+	padding-bottom:120px;
+}
+#mainArea {
+	width:1120px;
+}
+
+.goods {
+	width:1120px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	zoom:1;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight:300;
+	color:#606264;
+	font-size:15px;
+	line-height:1.8em;
+}
+.goods li {
+	float:left;
+	width:360px;
+	height:600px;
+	margin-right:20px;
+	margin-bottom:20px;
+	box-sizing:border-box;
+}
+.goods li:nth-child(3n) {
+	margin-right:0px;
+}
+.goods li .goodsBox {
+	width:100%;
+	height:100%;
+	padding:15px;
+	position:relative;
+	box-sizing:border-box;
+	border:1px solid #d3d7d9;
+	background:#fbfcfc;
+}
+.goods li .goodsBox .photo {
+	width:330px;
+	height:330px;
+	position:relative;
+	background:#FFF;
+	box-sizing:border-box;
+	border:1px solid #d3d7d9;
+	margin-bottom:15px;
+}
+.goods li .goodsBox .photo a {
+	position:absolute;
+	width:100%;
+	height:100%;
+	text-indent:-999999px;
+	top:0px;
+	left:0px;
+}
+.goods li .goodsBox #photo1 {background:url(../../img/goods/goods1.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo2 {background:url(../../img/goods/goods2.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo3 {background:url(../../img/goods/goods3.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo4 {background:url(../../img/goods/goods4.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo5 {background:url(../../img/goods/goods5.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo6 {background:url(../../img/goods/goods6.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo7 {background:url(../../img/goods/goods7.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo8 {background:url(../../img/goods/goods8.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo9 {background:url(../../img/goods/goods9.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo10 {background:url(../../img/goods/goods10.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo11 {background:url(../../img/goods/goods11.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo12 {background:url(../../img/goods/goods12.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo13 {background:url(../../img/goods/goods13.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo14 {background:url(../../img/goods/goods14.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo15 {background:url(../../img/goods/goods15.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo16 {background:url(../../img/goods/goods16.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo17 {background:url(../../img/goods/goods17.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo18 {background:url(../../img/goods/goods18.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo19 {background:url(../../img/goods/goods19.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo20 {background:url(../../img/goods/goods20.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo21 {background:url(../../img/goods/goods21.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo22 {background:url(../../img/goods/goods22.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo23 {background:url(../../img/goods/goods23.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo24 {background:url(../../img/goods/goods24.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo25 {background:url(../../img/goods/goods25.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo26 {background:url(../../img/goods/goods26.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo27 {background:url(../../img/goods/goods27.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo28 {background:url(../../img/goods/goods28.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo29 {background:url(../../img/goods/goods29.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo30 {background:url(../../img/goods/goods30.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo31 {background:url(../../img/goods/goods31.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo32 {background:url(../../img/goods/goods32.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo33 {background:url(../../img/goods/goods33.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo34 {background:url(../../img/goods/goods34.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo35 {background:url(../../img/goods/goods35.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo36 {background:url(../../img/goods/goods36.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo37 {background:url(../../img/goods/goods37.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo38 {background:url(../../img/goods/goods38.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo39 {background:url(../../img/goods/goods39.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo40 {background:url(../../img/goods/goods40.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo41 {background:url(../../img/goods/goods41.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo42 {background:url(../../img/goods/goods42.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo43 {background:url(../../img/goods/goods43.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo44 {background:url(../../img/goods/goods44.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo45 {background:url(../../img/goods/goods45.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo46 {background:url(../../img/goods/goods46.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo47 {background:url(../../img/goods/goods47.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo48 {background:url(../../img/goods/goods48.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo49 {background:url(../../img/goods/goods49.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo50 {background:url(../../img/goods/goods50.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo51 {background:url(../../img/goods/goods51.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo52 {background:url(../../img/goods/goods52.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo53 {background:url(../../img/goods/goods53.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo54 {background:url(../../img/goods/goods54.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo55 {background:url(../../img/goods/goods55.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo56 {background:url(../../img/goods/goods56.jpg) no-repeat center top;	background-size:cover;}
+
+.goods li .goodsBox h5 {
+	font-size:17px;
+}
+.goods li .goodsBox p {
+	line-height:1.4em;
+	margin-bottom:4px;
+}
+.goods li .goodsBox .pIndent3 {
+	text-indent:-3em;
+	padding-left:3em;
+}
+.goods li .goodsBox .pIndent4 {
+	text-indent:-4em;
+	padding-left:4em;
+}
+.goods li .goodsBox .pIndent5 {
+	text-indent:-5em;
+	padding-left:5em;
+}
+.goods li .goodsBox .btn {
+	width:330px;
+	box-sizing:border-box;
+	background:#929699;
+	color:#FFF;
+	position:absolute;
+	text-align:center;
+	padding:10px 0;
+	left:15px;
+	bottom:15px;
+}
+.goods li .goodsBox .btn a {
+	position:absolute;
+	width:100%;
+	height:100%;
+	text-indent:-999999px;
+	top:0px;
+	left:0px;
+}
+}
+@media screen and (max-width: 1000px) {
+.goods {
+	width:560px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	zoom:1;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight:300;
+	color:#606264;
+	font-size:22px;
+	line-height:1.8em;
+}
+.goods li {
+	width:560px;
+	height:auto;
+	margin-bottom:30px;
+	box-sizing:border-box;
+}
+.goods li:nth-child(3n) {
+	margin-right:0px;
+}
+.goods li .goodsBox {
+	width:100%;
+	height:100%;
+	padding:30px;
+	position:relative;
+	box-sizing:border-box;
+	border:1px solid #d3d7d9;
+	background:#fbfcfc;
+}
+.goods li .goodsBox .photo {
+	width:500px;
+	height:500px;
+	position:relative;
+	background:#FFF;
+	box-sizing:border-box;
+	border:1px solid #d3d7d9;
+	margin-bottom:20px;
+}
+.goods li .goodsBox .photo a {
+	position:absolute;
+	width:100%;
+	height:100%;
+	text-indent:-999999px;
+	top:0px;
+	left:0px;
+}
+.goods li .goodsBox #photo1 {background:url(../../img/goods/goods1.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo2 {background:url(../../img/goods/goods2.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo3 {background:url(../../img/goods/goods3.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo4 {background:url(../../img/goods/goods4.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo5 {background:url(../../img/goods/goods5.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo6 {background:url(../../img/goods/goods6.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo7 {background:url(../../img/goods/goods7.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo8 {background:url(../../img/goods/goods8.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo9 {background:url(../../img/goods/goods9.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo10 {background:url(../../img/goods/goods10.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo11 {background:url(../../img/goods/goods11.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo12 {background:url(../../img/goods/goods12.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo13 {background:url(../../img/goods/goods13.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo14 {background:url(../../img/goods/goods14.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo15 {background:url(../../img/goods/goods15.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo16 {background:url(../../img/goods/goods16.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo17 {background:url(../../img/goods/goods17.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo18 {background:url(../../img/goods/goods18.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo19 {background:url(../../img/goods/goods19.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo20 {background:url(../../img/goods/goods20.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo21 {background:url(../../img/goods/goods21.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo22 {background:url(../../img/goods/goods22.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo23 {background:url(../../img/goods/goods23.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo24 {background:url(../../img/goods/goods24.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo25 {background:url(../../img/goods/goods25.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo26 {background:url(../../img/goods/goods26.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo27 {background:url(../../img/goods/goods27.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo28 {background:url(../../img/goods/goods28.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo29 {background:url(../../img/goods/goods29.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo30 {background:url(../../img/goods/goods30.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo31 {background:url(../../img/goods/goods31.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo32 {background:url(../../img/goods/goods32.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo33 {background:url(../../img/goods/goods33.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo34 {background:url(../../img/goods/goods34.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo35 {background:url(../../img/goods/goods35.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo36 {background:url(../../img/goods/goods36.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo37 {background:url(../../img/goods/goods37.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo38 {background:url(../../img/goods/goods38.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo39 {background:url(../../img/goods/goods39.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo40 {background:url(../../img/goods/goods40.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo41 {background:url(../../img/goods/goods41.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo42 {background:url(../../img/goods/goods42.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo43 {background:url(../../img/goods/goods43.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo44 {background:url(../../img/goods/goods44.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo45 {background:url(../../img/goods/goods45.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo46 {background:url(../../img/goods/goods46.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo47 {background:url(../../img/goods/goods47.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo48 {background:url(../../img/goods/goods48.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo49 {background:url(../../img/goods/goods49.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo50 {background:url(../../img/goods/goods50.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo51 {background:url(../../img/goods/goods51.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo52 {background:url(../../img/goods/goods52.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo53 {background:url(../../img/goods/goods53.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo54 {background:url(../../img/goods/goods54.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo55 {background:url(../../img/goods/goods55.jpg) no-repeat center top;	background-size:cover;}
+.goods li .goodsBox #photo56 {background:url(../../img/goods/goods56.jpg) no-repeat center top;	background-size:cover;}
+
+.goods li .goodsBox h5 {
+	font-size:24px;
+	margin-bottom:6px;
+}
+.goods li .goodsBox p {
+	line-height:1.4em;
+	margin-bottom:6px;
+}
+.goods li .goodsBox .pIndent3 {
+	text-indent:-3em;
+	padding-left:3em;
+}
+.goods li .goodsBox .pIndent4 {
+	text-indent:-4em;
+	padding-left:4em;
+}
+.goods li .goodsBox .pIndent5 {
+	text-indent:-5em;
+	padding-left:5em;
+}
+.goods li .goodsBox .btn {
+	width:500px;
+	box-sizing:border-box;
+	background:#929699;
+	color:#FFF;
+	position:relative;
+	text-align:center;
+	padding:10px 0;
+	margin-top:20px;
+}
+.goods li .goodsBox .btn a {
+	position:absolute;
+	width:100%;
+	height:100%;
+	text-indent:-999999px;
+	top:0px;
+	left:0px;
+}
+}

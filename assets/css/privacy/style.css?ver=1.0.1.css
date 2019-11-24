@@ -1,0 +1,122 @@
+@media screen and (min-width:1001px) {
+.txtArea {
+	width:1000px;
+	margin:140px auto 0;
+	position:relative;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight:300;
+	color:#606264;
+	font-size:16px;
+	line-height:1.8em;
+}
+.txtArea li {
+	margin-top:60px;
+}
+.txtArea li .midashi {
+	width:1000px;
+	line-height:34px;
+	margin:0 0 10px;
+	text-align:left;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight:400;
+	font-size:24px;
+	text-indent:-1.5em;
+	padding-left:1.5em;
+}
+.txtArea li .midashi span {
+	display:block;
+}
+
+.txtArea li .midashi em {
+	line-height:34px;
+	font-style:normal;
+	font-size:20px;
+}
+
+.txtArea li p {
+	margin-top:16px;
+	text-align:justify;
+}
+.txtArea li p strong {
+	font-weight:300;
+}
+.txtArea li p span {
+	display:block;
+	text-align:justify;
+}
+.txtArea li .pIndent3 {
+	line-height:1.6em;
+	text-indent:-3em;
+	padding-left:3em;
+	margin-top:15px;
+}
+.txtArea li p .pIndent1 {
+	line-height:1.6em;
+	text-indent:-1.4em;
+	padding-left:1.4em;
+	display:block;
+	font-style:normal;
+	margin-top:5px;
+}
+}
+@media screen and (max-width: 1000px) {
+.txtArea {
+	width:660px;
+	margin:140px auto 0;
+	position:relative;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight:300;
+	color:#606264;
+	font-size:20px;
+	line-height:1.8em;
+}
+.txtArea li {
+	margin-top:60px;
+}
+.txtArea li .midashi {
+	width:660px;
+	line-height:34px;
+	margin:0 0 20px;
+	text-align:left;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight:400;
+	font-size:28px;
+	text-indent:-1.5em;
+	padding-left:1.5em;
+}
+.txtArea li .midashi span {
+	display:block;
+}
+
+.txtArea li .midashi em {
+	line-height:34px;
+	font-style:normal;
+	font-size:20px;
+}
+
+.txtArea li p {
+	margin-top:16px;
+	text-align:justify;
+}
+.txtArea li p strong {
+	font-weight:300;
+}
+.txtArea li p span {
+	display:block;
+	text-align:justify;
+}
+.txtArea li .pIndent3 {
+	line-height:1.6em;
+	text-indent:-3em;
+	padding-left:3em;
+	margin-top:15px;
+}
+.txtArea li p .pIndent1 {
+	line-height:1.6em;
+	text-indent:-1.4em;
+	padding-left:1.4em;
+	display:block;
+	font-style:normal;
+	margin-top:5px;
+}
+}

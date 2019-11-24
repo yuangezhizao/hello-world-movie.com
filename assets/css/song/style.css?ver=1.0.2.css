@@ -1,0 +1,256 @@
+@media screen and (min-width:1001px) {
+.txtArea {
+	width:1120px;
+	margin:80px auto 0;
+	position:relative;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight:300;
+	color:#606264;
+	font-size:18px;
+	line-height:1.8em;
+}
+.box {
+	position:relative;
+	overflow:hidden;
+	zoom:1;
+}
+.leftBox {
+	float:left;
+	width:395px;
+	height:395px;
+}
+.rightBox {
+	float:right;
+	width:680px;
+}
+.txtArea #midashi1 {
+	width:320px;
+	height:30px;
+	margin:30px 0 20px;
+}
+.txtArea #midashi1 span{
+	display:block;
+	width:100%;
+	height:100%;
+	background:url(../../img/song/midashi.png) no-repeat center top;
+	text-indent:-999999px;
+}
+.txtArea p {
+	text-align:justify;
+}
+.txtArea p span {
+	margin-top:18px;
+	display:block;
+	line-height:1.8em;
+}
+
+#imgArea1 {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	border:#dbdbdb solid 1px;
+	box-sizing:border-box;
+}
+#img1 {
+	width:100%;
+	height:100%;
+	background:url(../../img/song/main.jpg) no-repeat center top;
+	background-size:contain;
+}
+#txtArea2 {
+	margin:60px auto 60px;
+	font-size:16px;
+}
+#txtArea2 li{
+	margin:0 0 30px;
+}
+#txtArea2 h4 {
+	margin:0 auto 6px;
+	color:#3682b4;
+	font-size:20px;
+	text-indent:0px;
+	position:relative;
+}
+#txtArea2 h4 span {
+	font-size:16px;
+}
+#txtArea2 .cmntArea {
+	margin:10px 0 10px;
+	padding:15px 20px;
+	border:#3682b4 solid 2px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	font-size:15px;
+	line-height:1.5em;
+	color:#3682b4;
+}
+#txtArea2 .cmntArea h6 {
+	font-size:16px;
+	line-height:1.8em;
+}
+#txtArea3 {
+	background:#f7f6f8;
+	margin:0 auto 0px;
+	font-size:16px;
+	padding:20px 20px 0px;
+	border:#dbdbdb solid 1px;
+	box-sizing:border-box;
+ }
+#txtArea3 div {
+	position:relative;
+	overflow:hidden;
+	zoom:1;
+}
+#txtArea3 h4 {
+	width:550px;
+	height:160px;
+	margin:0 0 20px;
+	font-size:16px;
+	text-indent:-999999px;
+	background:url(../../img/song/song_sp.gif) no-repeat left top;
+	background-size:contain;
+	position:relative;
+	float:right;
+}
+#txtArea3 p {
+	width:550px;
+	float:right;
+	margin:0 auto 20px;
+	font-size:16px;
+}
+#txtArea3 .photo {
+	width:500px;
+	float:left;
+	margin:0 auto 0px;
+	font-size:20px;
+}
+#txtArea3 p span {
+	width:100%;
+	display:block;
+	margin-top:-28px;
+	text-align:right;
+}
+}
+@media screen and (max-width: 1000px) {
+.txtArea {
+	width:660px;
+	margin:80px auto 0;
+	position:relative;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight:300;
+	color:#606264;
+	font-size:20px;
+	line-height:1.8em;
+}
+.box {
+	position:relative;
+	overflow:hidden;
+	zoom:1;
+}
+.leftBox {
+	width:660px;
+	height:660px;
+}
+.rightBox {
+	width:100%;
+	margin-bottom:30px;
+}
+.txtArea #midashi1 {
+	width:320px;
+	height:30px;
+	margin:0 0 20px;
+}
+.txtArea #midashi1 span{
+	display:block;
+	width:100%;
+	height:100%;
+	background:url(../../img/song/midashi.png) no-repeat center top;
+	text-indent:-999999px;
+}
+.txtArea p {
+	text-align:justify;
+}
+.txtArea p span {
+	margin-top:18px;
+	display:block;
+	line-height:1.8em;
+}
+
+#imgArea1 {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	border:#dbdbdb solid 1px;
+	box-sizing:border-box;
+}
+#img1 {
+	width:100%;
+	height:100%;
+	background:url(../../img/song/main.jpg) no-repeat center top;
+	background-size:contain;
+}
+#txtArea2 {
+	margin:40px auto 60px;
+	font-size:20px;
+}
+#txtArea2 li{
+	margin:0 0 30px;
+}
+#txtArea2 h4 {
+	margin:0 auto 6px;
+	color:#3682b4;
+	font-size:20px;
+	text-indent:0px;
+	position:relative;
+}
+#txtArea2 h4 span {
+	font-size:16px;
+}
+#txtArea2 .cmntArea {
+	margin:10px 0 10px;
+	padding:15px 20px;
+	border:#3682b4 solid 2px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	font-size:18px;
+	line-height:1.5em;
+	color:#3682b4;
+}
+#txtArea2 .cmntArea h6 {
+	font-size:18px;
+	line-height:1.8em;
+}
+#txtArea3 {
+	background:#f7f6f8;
+	margin:0 auto 0px;
+	font-size:20px;
+	padding:20px 20px 0px;
+	border:#dbdbdb solid 1px;
+}
+#txtArea3 h4 {
+	width:600px;
+	height:170px;
+	margin:0 0 20px;
+	font-size:20px;
+	text-indent:-999999px;
+	background:url(../../img/song/song_sp.gif) no-repeat center left;
+	position:relative;
+}
+#txtArea3 p {
+	margin:0 auto 20px;
+	font-size:20px;
+}
+#txtArea3 .photo {
+	margin:0 auto 20px;
+	font-size:20px;
+}
+#txtArea3 p span {
+	width:100%;
+	display:block;
+	margin-top:-35px;
+	margin-bottom:0px;
+	text-align:right;
+}
+}

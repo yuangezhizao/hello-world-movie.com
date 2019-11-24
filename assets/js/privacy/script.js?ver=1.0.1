@@ -1,0 +1,47 @@
+// JavaScript Document
+$(document).ready(function() {
+"use strict";
+
+//------------- ローディング -------------//
+$(window).load(function(){
+	$(".loadingWrap .ng-scope").fadeOut({'duration':800,'easing':'easeInCubic','complete':function(){
+		$('.loadingWrap').fadeOut({'duration':800,'easing':'easeInSine'});
+			topStart();
+	}
+	});
+});
+
+function topStart() {
+		$('#tit').addClass('scaleDownIn').removeClass('scaleDownOut');
+		setTimeout(function(){$('.txtArea li:first-child .midashi').addClass('scaleUpIn').removeClass('scaleUpOut');},100);
+		setTimeout(function(){$('.txtArea li:nth-child(2) .midashi').addClass('scaleUpIn').removeClass('scaleUpOut');},100);
+		setTimeout(function(){$('.txtArea li:nth-child(3) .midashi').addClass('scaleUpIn').removeClass('scaleUpOut');},100);
+		setTimeout(function(){$('.txtArea li:nth-child(4) .midashi').addClass('scaleUpIn').removeClass('scaleUpOut');},100);
+		setTimeout(function(){$('.txtArea li:first-child p').addClass('fromBottomIn').removeClass('fromBottomOut');},300);
+		setTimeout(function(){$('.txtArea li:nth-child(2) .midashi').addClass('scaleUpIn').removeClass('scaleUpOut');},300);
+		setTimeout(function(){$('.txtArea li:nth-child(2) p').addClass('fromBottomIn').removeClass('fromBottomOut');},300);
+		setTimeout(function(){$('.txtArea li:nth-child(3) .midashi').addClass('scaleUpIn').removeClass('scaleUpOut');},300);
+		setTimeout(function(){$('.txtArea li:nth-child(3) p').addClass('fromBottomIn').removeClass('fromBottomOut');},300);
+		setTimeout(function(){$('.txtArea li:nth-child(4) .midashi').addClass('scaleUpIn').removeClass('scaleUpOut');},300);
+		setTimeout(function(){$('.txtArea li:nth-child(4) p').addClass('fromBottomIn').removeClass('fromBottomOut');},300);
+}
+//------------- メニュー表示・非表示 -------------//
+$("#menuIcon").click(function(){
+        if ($('#overlayMenu').is(':visible')) {
+			$("#overlayMenu").slideUp({'duration':600,'easing':'easeOutQuart'});
+			$("#menuOn").delay(0).fadeOut({'duration':150,'easing':'easeInQuart'});
+			$("#menuOff").delay(150).fadeIn({'duration':450,'easing':'easeOutQuart'});
+        } else {
+			$("#overlayMenu").slideDown({'duration':600,'easing':'easeOutQuart'});
+			$("#menuOff").delay(0).fadeOut({'duration':200,'easing':'easeInQuart'});
+			$("#menuOn").delay(200).fadeIn({'duration':400,'easing':'easeOutQuart'});
+        }
+	return false;
+});
+//------------- 右クリック禁止 -------------//
+
+$('body').on('contextmenu',function(){
+	return false;
+});
+
+});

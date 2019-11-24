@@ -1,0 +1,86 @@
+@media screen and (min-width:1001px) {
+.txtArea {
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight:300;
+	color:#606264;
+	font-size:16px;
+	line-height:1.8em;
+}
+.txtArea li {
+	margin-top:60px;
+}
+.txtArea li .midashi {
+	width:1000px;
+	line-height:34px;
+	margin:0 0 20px;
+	text-align:center;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight:600;
+	font-size:30px;
+}
+.txtArea li .midashi span {
+	display:block;
+}
+
+.txtArea li .midashi em {
+	line-height:34px;
+	font-style:normal;
+	font-size:24px;
+}
+
+.txtArea li p {
+	margin-top:15px;
+	text-align:justify;
+}
+.txtArea li p span {
+	display:block;
+	text-align:justify;
+}
+}
+@media screen and (max-width: 1000px) {
+.txtArea {
+	width:660px;
+	margin:0 auto;
+	position:relative;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight:300;
+	color:#606264;
+	font-size:16px;
+	line-height:1.8em;
+}
+.txtArea li {
+	margin-top:50px;
+}
+.txtArea li .midashi {
+	width:660px;
+	line-height:34px;
+	margin:0 0 20px;
+	text-align:center;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight:600;
+	font-size:32px;
+}
+.txtArea li .midashi span {
+	display:block;
+}
+
+.txtArea li .midashi em {
+	line-height:34px;
+	font-style:normal;
+	font-size:26px;
+}
+
+.txtArea li p {
+	font-size:20px;
+	margin-top:15px;
+	text-align:justify;
+	line-height:1.68em;
+}
+.txtArea li p span {
+	display:block;
+	text-align:justify;
+}
+}
